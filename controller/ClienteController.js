@@ -89,7 +89,7 @@ exports.ActualizarCliente = async(req, res) => {
 
             cliente.nombres = nombres;
             cliente.apellidos = apellidos;
-            cliente.cedula = cedula;
+            cliente.documento = documento;
             cliente.correo = correo;
             cliente.telefono = telefono;
             cliente.direccion = direccion;
