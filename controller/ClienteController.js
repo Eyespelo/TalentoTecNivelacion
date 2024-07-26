@@ -79,7 +79,7 @@ exports.modificarCliente = async(req,res) => {
 
 exports.ActualizarCliente = async(req, res) => {
     try{
-        const {nombres, apellidos, cedula, correo, telefono, direccion} = req.body
+        const {nombres, apellidos, documento, correo, telefono, direccion} = req.body
         let cliente = await Cliente.findById(req.params.id);
 
         if(!cliente){
