@@ -12,7 +12,7 @@ const clienteSchema = mongoose.Schema({
         type:String,
         require: true
     },
-    cedula: {
+    documento: {
         type: Number,
         require: true
     },
