@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const ClienteController = require('../controllers/ClienteController');
+const ClienteController = require('../controller/ClienteController');
 
 //aca van las rutas del crub
 router.post('/', ClienteController.agregarClientes);

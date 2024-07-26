@@ -1,7 +1,6 @@
-// RoutesLibro.js
 const express = require('express');
 const router = express.Router();
-const LibroController = require('../controllers/LibroController');
+const LibroController = require('../controller/LibroController');
 
 // Acá van las rutas del CRUD
 router.post('/', LibroController.agregarLibros);

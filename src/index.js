@@ -12,8 +12,8 @@ app.use(express.json());
 //rutas
 
 app.use('/api/tareas', require('../routes/RoutesTareas'));
-app.use('api/cliente', require('../routes/RoutesCliente'));
-app.use('api/libro', require('../routes/RoutesLibro'));
+app.use('/api/clientes', require('../routes/RoutesCliente'));
+app.use('/api/libros', require('../routes/RoutesLibro'));
 
 //verificacion
 
